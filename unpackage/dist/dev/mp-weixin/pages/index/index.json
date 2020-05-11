@@ -1,0 +1,8 @@
+{
+  "navigationBarTitleText": "首页",
+  "navigationBarTextStyle": "black",
+  "usingComponents": {
+    "nav-tab": "/components/navTab",
+    "goods-item": "/components/goodsitem"
+  }
+}

@@ -1,0 +1,1 @@
+<view class="navWrap data-v-5c8a5b90"><image class="nr data-v-5c8a5b90" src="../static/images/navright.png"></image><text class="title data-v-5c8a5b90">{{title}}</text><image class="nl data-v-5c8a5b90" src="../static/images/navleft.png"></image></view>

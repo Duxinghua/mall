@@ -44,7 +44,10 @@
 		<view class="xgr">
 			<NavTab :title="xtitle"></NavTab>
 			<view class="content">
-				
+				<image src="../../static/images/gad.png" mode="aspectFill" class="gad"></image>
+				<view class="goodwrap">
+					<GoodsItem  v-for="(item,index) in goodsList" :width.sync="goodsWidthf" :index="index" :obj="item" />
+				</view>
 			</view>
 		</view>
 	</view>
@@ -60,6 +63,7 @@
 				nTitle: '新品推荐',
 				xtitle: '新鲜蔬果推荐',
 				goodsWidth: '347',
+				goodsWidthf: '179',
 				cateList:[
 					{
 						id:1,
@@ -325,14 +329,31 @@
 		.xgr{
 			display: flex;
 			flex-direction: column;
-			width:708upx;
+			width:100%;
 			height:872upx;
-			background:white;
 			.content{
 				display: flex;
 				flex-direction: column;
+				width:708upx;
+				height:644upx;
+				margin:0 auto;
+				background:white;
 				border-radius: 7upx;
 				overflow: hidden;
+				.gad{
+					width:100%;
+					height:333upx;
+				}
+				.goodwrap{
+					padding-top:14upx;
+					padding-left:14upx;
+					box-sizing: border-box;
+					display: flex;
+					flex-direction: row;
+					width:100%;
+					overflow: hidden;
+					overflow-x: scroll;
+				}
 			}
 		}
 	}

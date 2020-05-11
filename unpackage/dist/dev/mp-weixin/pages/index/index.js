@@ -190,6 +190,9 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 
 
 
+
+
+
 {
   data: function data() {
     return {
@@ -197,6 +200,7 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
       nTitle: '新品推荐',
       xtitle: '新鲜蔬果推荐',
       goodsWidth: '347',
+      goodsWidthf: '179',
       cateList: [
       {
         id: 1,

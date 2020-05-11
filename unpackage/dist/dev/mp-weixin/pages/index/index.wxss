@@ -212,9 +212,8 @@
   -webkit-box-direction: normal;
   -webkit-flex-direction: column;
           flex-direction: column;
-  width: 708rpx;
+  width: 100%;
   height: 872rpx;
-  background: white;
 }
 .home .xgr .content {
   display: -webkit-box;
@@ -224,7 +223,31 @@
   -webkit-box-direction: normal;
   -webkit-flex-direction: column;
           flex-direction: column;
+  width: 708rpx;
+  height: 644rpx;
+  margin: 0 auto;
+  background: white;
   border-radius: 7rpx;
   overflow: hidden;
+}
+.home .xgr .content .gad {
+  width: 100%;
+  height: 333rpx;
+}
+.home .xgr .content .goodwrap {
+  padding-top: 14rpx;
+  padding-left: 14rpx;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+          flex-direction: row;
+  width: 100%;
+  overflow: hidden;
+  overflow-x: scroll;
 }
 

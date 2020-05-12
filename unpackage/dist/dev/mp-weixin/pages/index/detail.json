@@ -1,0 +1,7 @@
+{
+  "navigationStyle": "custom",
+  "usingComponents": {
+    "goods-comments": "/components/goodscomments",
+    "goods-item": "/components/goodsitem"
+  }
+}

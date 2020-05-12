@@ -104,11 +104,11 @@
 /******/
 /******/
 /******/ 		// mini-css-extract-plugin CSS loading
-/******/ 		var cssChunks = {"components/goodsitem":1,"components/navTab":1};
+/******/ 		var cssChunks = {"components/goodsitem":1,"components/goodscomments":1,"components/navTab":1,"components/sx-rate/index":1};
 /******/ 		if(installedCssChunks[chunkId]) promises.push(installedCssChunks[chunkId]);
 /******/ 		else if(installedCssChunks[chunkId] !== 0 && cssChunks[chunkId]) {
 /******/ 			promises.push(installedCssChunks[chunkId] = new Promise(function(resolve, reject) {
-/******/ 				var href = "" + ({"components/goodsitem":"components/goodsitem","components/navTab":"components/navTab"}[chunkId]||chunkId) + ".wxss";
+/******/ 				var href = "" + ({"colorui/components/cu-custom":"colorui/components/cu-custom","components/goodsitem":"components/goodsitem","components/goodscomments":"components/goodscomments","components/navTab":"components/navTab","components/sx-rate/index":"components/sx-rate/index"}[chunkId]||chunkId) + ".wxss";
 /******/ 				var fullhref = __webpack_require__.p + href;
 /******/ 				var existingLinkTags = document.getElementsByTagName("link");
 /******/ 				for(var i = 0; i < existingLinkTags.length; i++) {

@@ -6,6 +6,15 @@
 					<text class="cuIcon-back" v-if="isOpen"></text>
 					<slot name="backText"></slot>
 				</view>
+				<view class="goback" v-if="isJL" :class="[Sys == 'ios' ? 'gobackIos' : 'gobackAndroid']">
+					<view class="gobackwrap gobackItem" @tap="BackPage">
+						<image src="../../static/images/goback.png" class="gobackico"></image>
+					</view>
+					<view class="hr"></view>
+					<view class="gothome gobackItem">
+						<image src="../../static/images/gothome.png" class="gobackhome"></image>
+					</view>
+				</view>
 				<view class="content" :style="[{top:StatusBar + 'px'}]">
 					<slot name="content"></slot>
 				</view>
@@ -20,7 +29,8 @@
 		data() {
 			return {
 				StatusBar: this.StatusBar,
-				CustomBar: this.CustomBar
+				CustomBar: this.CustomBar,
+				Sys: this.Sys
 			};
 		},
 		name: 'cu-custom',
@@ -53,6 +63,10 @@
 				default: ''
 			},
 			isOpen: {
+				type: [Boolean],
+				default: false
+			},
+			isJL: {
 				type: [Boolean],
 				default: false
 			}

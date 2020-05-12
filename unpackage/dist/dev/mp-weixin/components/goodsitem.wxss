@@ -89,6 +89,29 @@
   width: 179rpx;
   height: 179rpx;
 }
+.goodsitem215.data-v-82a1a58a {
+  width: 215rpx;
+  margin-right: 21rpx;
+  margin-bottom: 21rpx;
+}
+.goodsitem215 .goodscover.data-v-82a1a58a {
+  width: 215rpx;
+  height: 215rpx;
+}
+.goodsitem215 .goodsname.data-v-82a1a58a {
+  font-size: 25rpx;
+  color: #516548;
+  display: inline-block;
+  word-break: keep-all;
+  width: calc(215rpx * 0.9);
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+.goodsitem215 .pricefix.data-v-82a1a58a {
+  font-size: 25rpx;
+  color: #1F2D19;
+}
 .goodsitem347.data-v-82a1a58a {
   margin-right: 14rpx;
   margin-bottom: 14rpx;

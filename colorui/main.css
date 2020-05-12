@@ -1495,6 +1495,43 @@ button.cuIcon.lg {
 	justify-content: center;
 	max-width: 100%;
 }
+.cu-bar .goback{
+	width:181upx;
+	background:rgba(255,255,255,0.6);
+	/* border:1upx solid rgba(218, 218, 218, 1); */
+	border-radius:30upx;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	margin-left:21upx;
+}
+.cu-bar .gobackIos{
+	height:62upx;
+}
+.cu-bar .gobackAndroid{
+	height:62upx;
+}
+.cu-bar .gobackwrap,.cu-bar .gothome{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.cu-bar .goback .hr{
+	width:1upx;
+	height:35upx;
+	background:rgba(245,245,245,1);
+}
+.cu-bar .goback .gobackItem{
+	width: calc((100% - 1upx)/2);
+}
+.cu-bar .goback .gothome .gobackhome{
+	width:31upx;
+	height:31upx;
+}
+.cu-bar .goback .gobackwrap .gobackico{
+	width:17upx;
+	height:30upx;
+}
 
 .cu-bar .action.border-title {
 	position: relative;

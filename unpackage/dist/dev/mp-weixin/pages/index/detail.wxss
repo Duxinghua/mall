@@ -1,0 +1,422 @@
+@charset "UTF-8";
+/**
+ * 这里是uni-app内置的常用样式变量
+ *
+ * uni-app 官方扩展插件及插件市场（https://ext.dcloud.net.cn）上很多三方插件均使用了这些样式变量
+ * 如果你是插件开发者，建议你使用scss预处理，并在插件代码中直接使用这些变量（无需 import 这个文件），方便用户通过搭积木的方式开发整体风格一致的App
+ *
+ */
+/**
+ * 如果你是App开发者（插件使用者），你可以通过修改这些变量来定制自己的插件主题，实现自定义主题功能
+ *
+ * 如果你的项目同样使用了scss预处理，你也可以直接在你的 scss 代码中使用如下变量，同时无需 import 这个文件
+ */
+/* 颜色变量 */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+page.data-v-47dcf664 {
+  background: #f8f8f8;
+}
+.detail.data-v-47dcf664 {
+  width: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+          flex-direction: column;
+}
+.detail .swiperwrap.data-v-47dcf664 {
+  width: 100%;
+  height: 750rpx;
+  position: relative;
+}
+.detail .swiperwrap .store-swiper.data-v-47dcf664 {
+  height: 750rpx !important;
+}
+.detail .swiperwrap .store-swiper .swiperimg.data-v-47dcf664 {
+  width: 100%;
+  height: 100%;
+}
+.detail .swiperwrap .top.data-v-47dcf664 {
+  position: absolute;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  top: 50rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+          flex-direction: row;
+  width: 100%;
+  padding-left: 38rpx;
+  padding-right: 38rpx;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+.detail .swiperwrap .top .gosearch.data-v-47dcf664 {
+  width: calc(100% - 126rpx - 74rpx);
+  margin-right: auto;
+  height: 63rpx;
+  background: black;
+  opacity: 0.6;
+  border-radius: 31rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+          justify-content: flex-start;
+  padding-left: 24rpx;
+  padding-right: 24rpx;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+}
+.detail .swiperwrap .top .gosearch .gosearchico.data-v-47dcf664 {
+  width: 28rpx;
+  height: 28rpx;
+  margin-right: 24rpx;
+}
+.detail .swiperwrap .top .gosearch text.data-v-47dcf664 {
+  font-size: 24rpx;
+  color: #ccc;
+}
+.detail .swiperwrap .top .gocar.data-v-47dcf664 {
+  width: 63rpx;
+  height: 63rpx;
+}
+.detail .swiperwrap .top .gocar.data-v-47dcf664:nth-last-child(2) {
+  margin-right: 37rpx;
+}
+.detail .swiperwrap .fix.data-v-47dcf664 {
+  position: absolute;
+  bottom: 40rpx;
+  right: 21rpx;
+  width: 67rpx;
+  height: 42rpx;
+  background: #333333;
+  opacity: 0.6;
+  border-radius: 21rpx;
+  color: white;
+  font-size: 25rpx;
+  line-height: 42rpx;
+  text-align: center;
+}
+.detail .detail-info.data-v-47dcf664 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+          flex-direction: column;
+  padding: 30rpx;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  background: white;
+  margin-bottom: 21rpx;
+}
+.detail .detail-info .detailprice.data-v-47dcf664 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+          justify-content: space-between;
+}
+.detail .detail-info .detailprice text.data-v-47dcf664:nth-child(1) {
+  font-size: 25rpx;
+  font-weight: bold;
+  color: #FF432C;
+  margin-right: 14rpx;
+}
+.detail .detail-info .detailprice text.data-v-47dcf664:nth-child(2) {
+  text-decoration: line-through;
+  font-size: 25rpx;
+  color: #999;
+  font-weight: 500;
+}
+.detail .detail-info .detailprice .icoshare .collect.data-v-47dcf664 {
+  width: 39rpx;
+  height: 37rpx;
+  margin-right: 30rpx;
+}
+.detail .detail-info .detailprice .icoshare .share.data-v-47dcf664 {
+  width: 35rpx;
+  height: 35rpx;
+}
+.detail .detail-info .detailtitle.data-v-47dcf664 {
+  font-size: 36rpx;
+  margin-top: 20rpx;
+  color: #333;
+  line-height: 50rpx;
+  display: -webkit-box;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+}
+.detail .detail-info .detailcontent.data-v-47dcf664 {
+  margin-top: 26rpx;
+  font-size: 25rpx;
+  color: #555;
+  line-height: 42rpx;
+}
+.detail .detail-stock.data-v-47dcf664 {
+  margin-bottom: 21rpx;
+  width: 100%;
+  padding: 31rpx;
+  background: white;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+          flex-direction: row;
+}
+.detail .detail-stock text.data-v-47dcf664:nth-child(1) {
+  font-size: 25rpx;
+  color: #333;
+  font-weight: 800;
+}
+.detail .detail-stock text.data-v-47dcf664:nth-child(2) {
+  font-size: 26rpx;
+  color: #333;
+  font-weight: 500;
+  margin-left: 40rpx;
+}
+.detail .detail-stock text.data-v-47dcf664:nth-child(3) {
+  font-size: 26rpx;
+  color: #333;
+  margin-left: auto;
+}
+.detail .detail-comment.data-v-47dcf664 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+          flex-direction: column;
+  padding: 30rpx;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  background: white;
+  margin-bottom: 21rpx;
+}
+.detail .detail-comment .c-wrip.data-v-47dcf664 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+          justify-content: space-between;
+}
+.detail .detail-comment .c-wrip .cu text.data-v-47dcf664:nth-child(1) {
+  font-size: 33rpx;
+  color: #333;
+}
+.detail .detail-comment .c-wrip .cu text.data-v-47dcf664:nth-child(2) {
+  font-size: 25rpx;
+  color: #999;
+}
+.detail .detail-comment .c-wrip .lc.data-v-47dcf664 {
+  font-size: 25rpx;
+  color: #333;
+  padding-right: 25rpx;
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+}
+.detail .detail-comment .c-wrip .lc.data-v-47dcf664::after {
+  position: absolute;
+  right: 0;
+  width: 14rpx;
+  height: 24rpx;
+  content: '';
+  background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAwAAAAWCAYAAAD0OH0aAAAB3UlEQVQ4T4XUva/SUBgG8OcpRwVFmkCAhYGBhIQBKE2cdXfyOjho/AwaY+6gJjcxXhW9RI0f0aDReG/UweEuxrj4PzB0YWjCxsDSDiRKsQ6kr2kCN35Q6Pr2d87pc963rNfrR2OxmAlgx7Ks71jx0DCMU5qmvQCwq5S60+12fywzLBaL8UwmcwvAOoCvnudd6/f74yjEWUE1Go1wl0sAXpJsWZb1cxGaA5imuU9E2gDOkXwL4NEitAfC1QqFQiKbzW5qmnZVRD5Pp9P1Xq83+XOnv0BYqFQq++PxeAfAWQDPXNfdGg6H/hz9B8JCqVQ6kEqlHgI4TbLjOM7TOVoIQlQulw8nk8m2iJwh+d5xnNshigQhCiNPp9MfSZ4AcNeyrCdLwTyIfD6/A+B4EAQXVwLTNA+KyCuSa0EQXFkKwphzudw7kieDIGiPx+PoI1Wr1UNKqQcALgD4NBqNbg4Gg1+Rseq63hKR8wC2XddtR8Y6u7jnJMOXO77vb9m27S28uNkH3iPZFJFdktf/7ae9I4UrJxKJTRFpkvwA4H5k88069THJywDeeJ7XipoJhn2j6/oGgBsi8m0ymTSXDpBhGGuapr0G8EUptbFyRGu12jGl1BHf97dt2x6t+gn8BtoRwGGepuzDAAAAAElFTkSuQmCC) no-repeat;
+  background-size: 100% 100%;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+}
+.detail .detail-content.data-v-47dcf664 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+          flex-direction: column;
+  padding: 30rpx;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  width: 100%;
+  min-height: 400rpx;
+  background: white;
+}
+.detail .detail-content .title.data-v-47dcf664 {
+  font-size: 33rpx;
+  font-weight: 800;
+  color: #333;
+}
+.detail .detail-recommend.data-v-47dcf664 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+          flex-direction: column;
+  margin-top: 30rpx;
+}
+.detail .detail-recommend .title.data-v-47dcf664 {
+  position: relative;
+  font-size: 33rpx;
+  color: #333;
+  font-weight: 800;
+  width: 150rpx;
+  height: 50rpx;
+  text-align: center;
+  padding-left: 30rpx;
+  padding-right: 30rpx;
+}
+.detail .detail-recommend .title.data-v-47dcf664::after {
+  position: absolute;
+  content: '';
+  left: 50%;
+  bottom: -7rpx;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  width: 50rpx;
+  height: 8rpx;
+  background: -webkit-linear-gradient(120deg, #ff2727 0%, #ff6633 100%);
+  background: linear-gradient(-30deg, #ff2727 0%, #ff6633 100%);
+}
+.detail .detail-recommend .content-fall.data-v-47dcf664 {
+  padding-left: calc(63rpx/2);
+  padding-right: calc(63rpx/2);
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+          flex-direction: row;
+  -webkit-flex-wrap: wrap;
+          flex-wrap: wrap;
+}
+.detail .detail-car-wrap.data-v-47dcf664 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  z-index: 3000;
+  width: 100%;
+  height: 101rpx;
+  padding-left: 40rpx;
+  padding-right: 40rpx;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  background: white;
+  -webkit-box-shadow: 0px -1px 0px 0px #eeeeee;
+          box-shadow: 0px -1px 0px 0px #eeeeee;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+}
+.detail .detail-car-wrap .caritem.data-v-47dcf664 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+          justify-content: center;
+  margin-right: 50rpx;
+  width: 60rpx;
+}
+.detail .detail-car-wrap .caritem .cover.data-v-47dcf664 {
+  width: 35rpx;
+  height: 33rpx;
+  margin-bottom: 12rpx;
+}
+.detail .detail-car-wrap .caritem .gocars.data-v-47dcf664 {
+  width: 34rpx;
+  height: 33rpx;
+  margin-bottom: 12rpx;
+}
+.detail .detail-car-wrap .caritem text.data-v-47dcf664 {
+  font-size: 20rpx;
+  color: #333;
+}
+.detail .detail-car-wrap .gocar.data-v-47dcf664 {
+  background: #446935;
+  margin-right: 50rpx;
+}
+.detail .detail-car-wrap .gobuy.data-v-47dcf664 {
+  background: #000000;
+}
+.detail .detail-car-wrap .widthfix.data-v-47dcf664 {
+  width: calc((100% - 270rpx)/2);
+  height: 79rpx;
+  border-radius: 40rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+          justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  color: #FEFEFE;
+  font-size: 31rpx;
+}
+

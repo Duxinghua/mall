@@ -1,10 +1,10 @@
 <template name="goodsItem">
-	<view :class="['goodsitem',width == 179 ? 'goodsitem179' : 'goodsitem347', gid % 2 != 0 ? 'goodsfix': '']" @click="goodsClick(obj)">
+	<view :class="['goodsitem',width == 179 ? 'goodsitem179' : (width == 215 ? 'goodsitem215' : 'goodsitem347'), rfix? 'goodsfix': '']" @click="goodsClick(obj)">
 		<image :src="obj.image" mode="aspectFill" class="goodscover" />
 		<image v-if="obj.type == 'hot' || obj.type == 'new' " :src="obj.type == 'hot' ? require('../static/images/hot.png') : (obj.type == 'new' ? require('../static/images/new.png') : '')" class="imgtype"></image>
 		<text class="goodsname">{{obj.goods_name}}</text>
 		<view class="goodsprice">
-			<text class="price1">￥{{obj.price}}</text>
+			<text :class="['price1',width == 215 ? 'pricefix' : '']">￥{{obj.price}}</text>
 			<text class="price2">￥{{obj.oldprice}}</text>
 			<view class="gocar" v-if="width == 347">
 				<image class="jiahao" src="../static/images/jiahao.png"></image>
@@ -20,6 +20,11 @@
 <script>
 export default {
 	name: 'goodsItem',
+	data () {
+		return {
+			gidIndex: this.width == 347 ? '2' : this.width == 215 ? '3': 0
+		}
+	},
 	props: {
 		obj: {
 			type: Object
@@ -34,6 +39,23 @@ export default {
 	},
 	created() {
 		
+	},
+	computed:{
+		rfix () {
+				if (this.width == 347){
+					if((this.gid + 1) % 2 == 0 ){
+						return true
+					}else{
+						return false
+					}
+				}else if(this.width == 215) {
+					if((this.gid + 1) % 3 == 0){
+						return true
+					}else{
+						return false
+					}
+				}
+			}
 	},
 	methods:{
 		goodsClick(obj){
@@ -102,6 +124,29 @@ export default {
 	.goodscover{
 		width:179upx;
 		height:179upx;
+	}
+}
+.goodsitem215{
+	width:215upx;
+	margin-right: 21upx;
+	margin-bottom: 21upx;
+	.goodscover{
+		width:215upx;
+		height:215upx;
+	}
+	.goodsname{
+		font-size: 25upx;
+		color:#516548;
+		display: inline-block;
+		word-break: keep-all;
+		width:calc(215upx * 0.9);
+		overflow: hidden;
+		white-space: nowrap;
+		text-overflow: ellipsis;
+	}
+	.pricefix{
+		font-size: 25upx;
+		color:#1F2D19;
 	}
 }
 .goodsitem347{
